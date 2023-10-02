@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
 }
 
 img {
@@ -29,5 +29,42 @@ img {
   max-width: 100%;
 }
 
+.wrapper {
+  margin: 0;
+  background-color: white;
+  padding: 1em;
+}
 
+header,
+footer {
+  text-align: center;
+}
 
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+media width 
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  margin-left: auto;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding-left: 1em;
+}
+
+#banner {
+  display: flex;
+
+}
