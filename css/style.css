@@ -30,13 +30,153 @@ img {
 }
 
 .wrapper {
-  margin: 0;
+  max-width: 1200px;
+  margin: 0 auto;
   background-color: white;
   padding: 1em;
 }
 
-header,
+/* ----headings---- */
+
+#header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+}
+
+nav ul li {
+  padding-left: 1.125em;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+/* ----banner section---- */
+
+#banner {
+  display: flex;
+  
+}
+
+#banner h1 {
+  margin: .5 auto;
+  
+}
+
+#banner h4 {
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+#banner h5 {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+
+.btn {
+	width: 9%;
+  height: 2rem;
+	display: inline-block;
+	text-decoration: none;
+  padding: 0.3em 0;
+	margin: 0 auto 2em;
+  text-align: center;
+}
+
+.btn {
+  color: #fff;
+  background-color: #000;
+  border-radius: 3px;
+}
+
+/* ----intro section---- */
+
+#intro h2 {
+  text-align: center;
+}
+
+#intro > div > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  padding-bottom: inherit;
+}
+
+
+/* ---- reviews section ---- */
+
+#reviews {
+  background-color: black;
+}
+
+#reviews div {
+  background-color: black;
+  color: #fff;
+}
+
+#reviews li {
+  list-style: none;
+  padding-left: 0;
+}
+
+#reviews h2 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+#reviews > div > div > ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10rem;
+  padding: 0;
+  padding-bottom: 2em;
+}
+
+/* ----products section---- */
+
+#flavors h2 {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.icecream-flavors {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 5em;
+}
+
+.icecream-flavors article {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+/* ---- footer ---- */
+
 footer {
+  text-align: center;
+}
+
+/* footer {
   text-align: center;
 }
 
@@ -44,8 +184,6 @@ nav ul {
   list-style: none;
   padding-left: 0;
 }
-
-media width 
 
 header {
   display: flex;
@@ -63,8 +201,6 @@ nav ul {
 nav ul li {
   padding-left: 1em;
 }
+ */
 
-#banner {
-  display: flex;
 
-}
