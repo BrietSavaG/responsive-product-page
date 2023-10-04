@@ -36,12 +36,19 @@ img {
   padding: 1em;
 }
 
-/* ----headings---- */
+hr {
+  border-top: 1px solid #f0f0f0;
+  padding-left: 0;
+  border-radius: 1px;
+}
+
+/* ----navigation bar - header ---- */
 
 #header > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 0;
 }
 
 nav ul {
@@ -63,9 +70,9 @@ nav ul li a:visited {
 
 /* ----banner section---- */
 
+
 #banner {
   display: flex;
-  
 }
 
 #banner h1 {
@@ -85,7 +92,7 @@ nav ul li a:visited {
 
 .image-grid {
   display: grid;
-  grid-template-columns: 250px 250px;
+  grid-template-columns: 200px 200px;
   grid-column-gap: 15px;
   grid-row-gap: 15px;
 }
